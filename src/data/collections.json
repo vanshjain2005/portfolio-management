@@ -1,0 +1,32 @@
+[
+  {
+    "id": "col1",
+    "name": "Best Projects",
+    "description": "Top projects that showcase the best work",
+    "coverImage": null,
+    "projectIds": ["p1", "p4"],
+    "tags": ["featured", "design-system"],
+    "visibility": "public",
+    "ordering": 1
+  },
+  {
+    "id": "col2",
+    "name": "Client Work",
+    "description": "Projects completed for clients",
+    "coverImage": null,
+    "projectIds": ["p3", "p6"],
+    "tags": ["client", "case-study"],
+    "visibility": "public",
+    "ordering": 2
+  },
+  {
+    "id": "col3",
+    "name": "Mobile Portfolio",
+    "description": "Mobile-first projects and prototypes",
+    "coverImage": null,
+    "projectIds": ["p5"],
+    "tags": ["mobile"],
+    "visibility": "public",
+    "ordering": 3
+  }
+]

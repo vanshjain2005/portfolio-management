@@ -1,0 +1,127 @@
+{
+  "assets": [
+    {
+      "id": "a1",
+      "name": "Website Screenshot - Project Site",
+      "type": "image",
+      "url": "https://placehold.co/800x600/png?text=Project+Screenshot",
+      "size": 150000,
+      "extension": "png",
+      "uploadedAt": "2026-01-15T10:30:00Z",
+      "projectId": "p1",
+      "tags": ["screenshot", "web", "preview"],
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "resolution": "1x1"
+      }
+    },
+    {
+      "id": "a2",
+      "name": "Project Mockup Design",
+      "type": "image",
+      "url": "https://placehold.co/800x600/png?text=Mockup+Design",
+      "size": 320000,
+      "extension": "png",
+      "uploadedAt": "2026-01-16T14:00:00Z",
+      "projectId": "p1",
+      "tags": ["mockup", "design", "mockup"],
+      "metadata": {
+        "width": 1000,
+        "height": 750,
+        "resolution": "1.33x1"
+      }
+    },
+    {
+      "id": "a3",
+      "name": "Project Video Demo",
+      "type": "video",
+      "url": "https://example.com/video-demo.mp4",
+      "size": 12000000,
+      "extension": "mp4",
+      "uploadedAt": "2026-01-17T09:15:00Z",
+      "projectId": "p2",
+      "tags": ["video", "demo", "demo"],
+      "metadata": {
+        "duration": 120,
+        "resolution": "1920x1080"
+      }
+    },
+    {
+      "id": "a4",
+      "name": "AI Analytics Chart",
+      "type": "image",
+      "url": "https://placehold.co/800x600/png?text=AI+Chart",
+      "size": 250000,
+      "extension": "png",
+      "uploadedAt": "2026-01-18T11:30:00Z",
+      "projectId": "p2",
+      "tags": ["chart", "ai", "visualization"],
+      "metadata": {
+        "width": 800,
+        "height": 600
+      }
+    },
+    {
+      "id": "a5",
+      "name": "Project Documentation PDF",
+      "type": "document",
+      "url": "https://example.com/project-documentation.pdf",
+      "size": 5000000,
+      "extension": "pdf",
+      "uploadedAt": "2026-01-19T16:00:00Z",
+      "projectId": "p2",
+      "tags": ["documentation", "pdf", "guide"],
+      "metadata": {
+        "pages": 15,
+        "format": "A4"
+      }
+    },
+    {
+      "id": "a6",
+      "name": "Project Background Audio",
+      "type": "audio",
+      "url": "https://example.com/background-audio.mp3",
+      "size": 4500000,
+      "extension": "mp3",
+      "uploadedAt": "2026-01-20T10:30:00Z",
+      "projectId": "p3",
+      "tags": ["audio", "background", "music"],
+      "metadata": {
+        "duration": 300,
+        "bitrate": "128kbps"
+      }
+    },
+    {
+      "id": "a7",
+      "name": "E-Commerce Product",
+      "type": "image",
+      "url": "https://placehold.co/800x600/png?text=Product+Image",
+      "size": 800000,
+      "extension": "png",
+      "uploadedAt": "2026-01-21T13:45:00Z",
+      "projectId": "p3",
+      "tags": ["e-commerce", "product", "image"],
+      "metadata": {
+        "width": 1200,
+        "height": 1200,
+        "aspect": "1:1"
+      }
+    },
+    {
+      "id": "a8",
+      "name": "Portfolio Project Code",
+      "type": "code",
+      "url": "https://example.com/project-code.ts",
+      "size": 150000,
+      "extension": "ts",
+      "uploadedAt": "2026-01-22T09:00:00Z",
+      "projectId": "p1",
+      "tags": ["code", "typescript", "project"],
+      "metadata": {
+        "language": "TypeScript",
+        "framework": "React"
+      }
+    }
+  ]
+}

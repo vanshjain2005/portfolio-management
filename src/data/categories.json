@@ -1,0 +1,50 @@
+[
+  {
+    "id": "c1",
+    "name": "Web Design",
+    "description": "Websites, web applications, landing pages",
+    "color": "#4F46E5",
+    "icon": "globe",
+    "projectCount": 2
+  },
+  {
+    "id": "c2",
+    "name": "Web App",
+    "description": "Complex web applications, SaaS products",
+    "color": "#10B981",
+    "icon": "aperture",
+    "projectCount": 1
+  },
+  {
+    "id": "c3",
+    "name": "Mobile App",
+    "description": "iOS and Android mobile applications",
+    "color": "#3B82F6",
+    "icon": "smartphone",
+    "projectCount": 1
+  },
+  {
+    "id": "c4",
+    "name": "UI/UX",
+    "description": "User interface and user experience design",
+    "color": "#8B5CF6",
+    "icon": "palette",
+    "projectCount": 2
+  },
+  {
+    "id": "c5",
+    "name": "Data Visualization",
+    "description": "Charts, dashboards, data-driven visualizations",
+    "color": "#F59E0B",
+    "icon": "bar-chart-3",
+    "projectCount": 1
+  },
+  {
+    "id": "c6",
+    "name": "Case Study",
+    "description": "Detailed project case studies and analyses",
+    "color": "#EF4444",
+    "icon": "file-text",
+    "projectCount": 1
+  }
+]

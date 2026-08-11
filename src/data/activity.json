@@ -1,0 +1,47 @@
+[
+  {
+    "id": "act1",
+    "type": "project_created",
+    "title": "Project Created: Personal Portfolio Website",
+    "description": "Created new project in Web Design category",
+    "date": "2026-01-15T10:30:00Z",
+    "icon": "plus",
+    "color": "blue"
+  },
+  {
+    "id": "act2",
+    "type": "project_published",
+    "title": "Project Published: AI Analytics Dashboard",
+    "description": "Project is now live and publicly visible",
+    "date": "2026-02-20T14:15:00Z",
+    "icon": "globe",
+    "color": "green"
+  },
+  {
+    "id": "act3",
+    "type": "project_featured",
+    "title": "Project Featured: Design System Library",
+    "description": "Project marked as featured in portfolio",
+    "date": "2026-04-05T09:00:00Z",
+    "icon": "star",
+    "color": "yellow"
+  },
+  {
+    "id": "act4",
+    "type": "project_updated",
+    "title": "Project Updated: E-Commerce Platform",
+    "description": "Updated project description and results",
+    "date": "2026-03-15T16:45:00Z",
+    "icon": "edit-3",
+    "color": "purple"
+  },
+  {
+    "id": "act5",
+    "type": "ai_analysis",
+    "title": "AI Analysis Complete",
+    "description": "Portfolio health analysis finished",
+    "date": "2026-06-01T11:20:00Z",
+    "icon": "brain",
+    "color": "indigo"
+  }
+]

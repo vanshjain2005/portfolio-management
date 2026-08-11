@@ -1,0 +1,82 @@
+[
+  {
+    "id": "sk1",
+    "name": "React",
+    "category": "Web",
+    "level": 5,
+    "experience": "5+ years",
+    "years": 5
+  },
+  {
+    "id": "sk2",
+    "name": "TypeScript",
+    "category": "Web",
+    "level": 4,
+    "experience": "3+ years",
+    "years": 3
+  },
+  {
+    "id": "sk3",
+    "name": "Tailwind CSS",
+    "category": "Web",
+    "level": 4,
+    "experience": "2+ years",
+    "years": 2
+  },
+  {
+    "id": "sk4",
+    "name": "Framer Motion",
+    "category": "Animation",
+    "level": 4,
+    "experience": "1+ years",
+    "years": 1
+  },
+  {
+    "id": "sk5",
+    "name": "React Native",
+    "category": "Mobile",
+    "level": 3,
+    "experience": "1+ years",
+    "years": 1
+  },
+  {
+    "id": "sk6",
+    "name": "UI/UX Design",
+    "category": "Design",
+    "level": 4,
+    "experience": "4+ years",
+    "years": 4
+  },
+  {
+    "id": "sk7",
+    "name": "Node.js",
+    "category": "Backend",
+    "level": 3,
+    "experience": "2+ years",
+    "years": 2
+  },
+  {
+    "id": "sk8",
+    "name": "Recharts",
+    "category": "Data Viz",
+    "level": 3,
+    "experience": "1+ years",
+    "years": 1
+  },
+  {
+    "id": "sk9",
+    "name": "MongoDB",
+    "category": "Backend",
+    "level": 3,
+    "experience": "1+ years",
+    "years": 1
+  },
+  {
+    "id": "sk10",
+    "name": "Git",
+    "category": "DevOps",
+    "level": 4,
+    "experience": "5+ years",
+    "years": 5
+  }
+]
