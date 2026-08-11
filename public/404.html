@@ -5,8 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio Studio</title>
     <script>
-      sessionStorage.setItem('redirect', location.pathname + location.search);
-      location.replace('/portfolio-management/');
+      (function () {
+        var base = '/portfolio-management/';
+        var isGithubPages = window.location.hostname.includes('github.io');
+        var root = isGithubPages ? base : '/';
+        sessionStorage.setItem('redirect', window.location.pathname.replace(base, '/') + window.location.search);
+        window.location.replace(root);
+      })();
     </script>
   </head>
   <body>
