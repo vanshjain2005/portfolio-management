@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation, useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
+
+const basename = window.location.hostname.includes('github.io') ? '/portfolio-management' : '/';
 import Sidebar from './components/layout/Sidebar';
 import Topbar from './components/layout/Topbar';
 import BackgroundFX from './components/BackgroundFX';
@@ -25,7 +27,16 @@ const pageVariants = {
 
 const AnimatedRoutes = ({ collapsed, onOpenCommand }: { collapsed: boolean; onOpenCommand: () => void }) => {
   const location = useLocation();
+  const navigate = useNavigate();
   const SIDEBAR_W = collapsed ? 80 : 264;
+
+  useEffect(() => {
+    const redirect = sessionStorage.getItem('redirect');
+    if (redirect) {
+      sessionStorage.removeItem('redirect');
+      navigate(redirect, { replace: true });
+    }
+  }, [navigate]);
 
   return (
     <motion.div
@@ -89,7 +100,7 @@ const App = () => {
   }, []);
 
   return (
-    <Router>
+    <Router basename={basename}>
       <div className="min-h-screen bg-[#09090b]">
         <BackgroundFX />
         <Sidebar collapsed={collapsed} onToggle={() => setCollapsed((c) => !c)} />
